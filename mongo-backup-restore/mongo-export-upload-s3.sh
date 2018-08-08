@@ -1,4 +1,11 @@
 #!/bin/bash
+#!/bin/bash
+# You need to have full access on DB which your going to backup/restore, so make sure user which your going to use
+# need to have full access
+# Make sure you have an S3 access from this instance, Attach S3 full access IAM policy to instance
+# Make sure zip/unzip/awscli is installed
+# Make changes of backup/restore path as per your need.
+
 date=`date +%m-%d-%y`
 mkdir -p /data/mongodb-backup/$date
 username='test'
