@@ -1,2 +1,3 @@
-# scripts
-A handful scripts for sysops guys
+# Scripts
+
+- A handful collection of scripts for sysops guys
